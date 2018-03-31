@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+    enum Gender
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        Man,
+        Woman
     }
 }

@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bar.cs" />
+    <Compile Include="Gender.cs" />
+    <Compile Include="Hall.cs" />
+    <Compile Include="Humane.cs" />
+    <Compile Include="Kitchen.cs" />
+    <Compile Include="Restoraunt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

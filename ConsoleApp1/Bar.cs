@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+    class Bar
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        List<Humane> Barmens;
+
     }
 }
