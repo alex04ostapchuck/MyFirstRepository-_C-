@@ -10,7 +10,8 @@ namespace ConsoleApp1
     {
         public string Name { get; set; }
         public string Adress { get; set; }
-        public List<Humane> Owners;
+        public int NumOfCoustumers { get; set; }
+        public Owners Owner;
         public Kitchen Kitchen;
         public List<Hall> Halls;
         public Bar Bar;

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Bar
+    enum Happynnes
     {
-        public List<Barmens> Barmens;
-    
+        Engry,
+        Normal,
+        Happy
     }
 }

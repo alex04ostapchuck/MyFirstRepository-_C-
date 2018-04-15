@@ -8,8 +8,8 @@ namespace ConsoleApp1
 {
     class Hall
     {
-        public List<Humane> Staff;
-        public List<Humane> Admin;
+        public List<Staff> Staff;
+        public List<Admin> Admin;
         public int Number;
     }
 }

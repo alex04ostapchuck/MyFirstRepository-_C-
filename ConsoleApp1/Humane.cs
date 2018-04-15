@@ -12,5 +12,9 @@ namespace ConsoleApp1
         public string Name { get; set; }
         public int Age { get; set; }
         public Gender Sex { get; set; }
+        Humane()
+        {
+            Name = 
+        }
     }
 }

@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Bar
+    enum Drink
     {
-        public List<Barmens> Barmens;
-    
+        Water,
+        Wine,
+        Beer,
+        Vodka,
+        Juice
     }
 }

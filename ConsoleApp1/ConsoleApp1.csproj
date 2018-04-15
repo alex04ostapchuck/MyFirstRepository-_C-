@@ -42,14 +42,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs" />
     <Compile Include="Bar.cs" />
+    <Compile Include="Barmens.cs" />
+    <Compile Include="Coockers.cs" />
+    <Compile Include="Drink.cs" />
+    <Compile Include="First.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="Hall.cs" />
+    <Compile Include="Happynnes.cs" />
     <Compile Include="Humane.cs" />
     <Compile Include="Kitchen.cs" />
+    <Compile Include="Owners.cs" />
     <Compile Include="Restoraunt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Second.cs" />
+    <Compile Include="Staff.cs" />
+    <Compile Include="Сustomer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

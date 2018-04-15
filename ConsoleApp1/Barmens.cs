@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Bar
+    class Barmens:Humane
     {
-        public List<Barmens> Barmens;
-    
+        public int Wage { get; set; }
+        public int Tips { get; set; }
     }
 }

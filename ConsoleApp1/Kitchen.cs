@@ -8,6 +8,6 @@ namespace ConsoleApp1
 {
     class Kitchen
     {
-        List<Humane> Coockers;
+        public List<Coockers> Coockers;
     }
 }
