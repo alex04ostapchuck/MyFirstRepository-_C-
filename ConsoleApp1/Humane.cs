@@ -8,13 +8,24 @@ namespace ConsoleApp1
 {
     class Humane
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public Gender Sex { get; set; }
-        Humane()
+        public int Id;
+        public string Name;
+        public int Age;
+        public Gender Sex;
+        public Humane()
         {
-            Name = 
+            Sex = (Gender)Data.Rand(0, 2);
+            if(Sex == 0)
+            {
+                Name = Data.NameMale();
+            }
+            else
+            {
+                Name = Data.NameFemale();
+            }
+            Id = Data.Rand(1, 100000);
+            Age = Data.Rand(18, 50);
         }
+        
     }
 }

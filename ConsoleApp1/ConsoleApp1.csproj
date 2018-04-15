@@ -46,6 +46,7 @@
     <Compile Include="Bar.cs" />
     <Compile Include="Barmens.cs" />
     <Compile Include="Coockers.cs" />
+    <Compile Include="Data.cs" />
     <Compile Include="Drink.cs" />
     <Compile Include="First.cs" />
     <Compile Include="Gender.cs" />
